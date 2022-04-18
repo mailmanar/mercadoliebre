@@ -203,3 +203,141 @@ margin-top: 5px;}
     align-self:auto;
     height:auto;
     width:auto;}
+
+
+    html{
+        font-size:10px;
+        font-size:1.2em;
+        
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    body{
+        margin: 0px;
+        padding: 0px;
+        font-family:'Roboto';
+        background-color: #ebebeb;
+        background-color: #EAC926;
+        display:grid;
+    }
+    
+    header,nav{
+        margin: 0px;
+        padding: 0px;
+        background-color: #EAC926;
+    }
+    main{
+        background-color: #ebebeb;
+        width:90%;
+        margin-left: auto;
+        margin-right:auto;
+    }
+    
+    .burger-menu{
+    text-align:center;
+    background-color: #1259c3;
+    color:white;
+    width: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom:10px;
+    }
+    
+    #compraCuotas{
+        text-align: center;
+    }
+    .fa-search{
+        background-color: white;
+        border-color: black;
+        border-style: solid;
+        border-width: thin;
+        margin-top: 2px;
+    }
+    
+    .fa-truck{
+        color: green;
+        -moz-border-radius: 30px; /* or 50% */
+        border-radius: 30px; /* or 50% */
+    }
+    nav ul{
+        padding: 0;
+        list-style-type: none;
+    }
+    .precio{
+    font-size:18px;
+    }
+    
+    .titular{
+        font-size:24px;
+    }
+    
+    .descuentos{
+        font-size:16px;
+    }
+    
+    .descripciones{
+        font-size:16px;
+    }
+    
+    .titulares{
+        font-size:24px;
+    }
+    
+    .producto{
+        margin-bottom:10px;
+        background-color:white;
+    }
+    footer{
+        background-color:white;
+        padding:10px;
+    }
+    
+    footer section{
+        background-color:white;
+        padding:30px;
+        text-align:center;
+    }
+    
+    footer i{
+        font-size:2em;
+        margin-bottom:10px;
+    }
+    
+    .footer-icons{
+    
+        margin-left:auto;
+        margin-right:auto;
+        text-align: center;
+        color: #1259c3;
+    }
+    
+    .copyright{
+        text-align:left;
+    }
+    
+    .fichaProducto{
+        border-color:#ebebeb;
+        border-style: solid;
+        border-top-width: 1px;
+        padding:15px;
+        border-left: 0;
+        border-right: 0;
+    }
+    
+    .producto img{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        
+    }
+    
+    section{
+        padding:15px;
+    }
+    
+    .banner img{
+        width:100%;
+    }
