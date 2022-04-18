@@ -336,6 +336,7 @@ margin-top: 5px;}
         margin-right:auto;
         text-align: center;
         color: #1259c3;
+        margin-bottom:10px;
     }
     
     
@@ -382,8 +383,10 @@ margin-top: 5px;}
             max-width:250px;
         }
 
-        main{
-            width:850px;
+        .containerProductos{
+            display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
         }
 
         .menu{justify-content: space-around;}
