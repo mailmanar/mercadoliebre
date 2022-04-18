@@ -59,17 +59,35 @@ align-items: flex-start;
 
 .descripcion { 
     font-size: 16px;
+    display:none;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
 
 }
-.descripcion:hover {display:show; }
-.descripcion:hover {display:none;}
+
+.oculto{
+    display:none;
+}
+.fichaProducto:hover .oculto{ 
+    display:flex;
+
+}
+
+.producto:hover {
+    box-shadow: 1px 1px;
+}
+
+
+
+
 
 .fa-truck { 
     color:#39b54a;
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-
+    margin-left: auto;
     display: block;
 font-size: 16px;
 padding: 5px;
@@ -120,7 +138,6 @@ margin: 0 auto }
 padding-bottom: 8px;}
 
 .centrar { text-align: center; 
-width: 90%;
 padding:15px;}
 
 .margen-producto { margin-bottom: 10px;
@@ -138,6 +155,13 @@ display:flex;}
     justify-content:space-between;
     align-items:unset;
     align-content:flex-start;}
+
+.menu ul{
+    list-style-type: none;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+}
 
 .banner { display: flex;
 margin-top: 5px;}
@@ -337,4 +361,30 @@ margin-top: 5px;}
     
     .banner img{
         width:100%;
+    }
+
+    .hover-login:hover{
+        background-color: #0022AA;
+    }
+
+    .icons-hover:hover{
+        color:green;
+    }
+
+    @media (min-width:480px){
+        footer{
+            display:flex;
+            justify-content: space-around;
+            flex-wrap:wrap;
+        }
+
+        .logo{
+            max-width:250px;
+        }
+
+        main{
+            width:850px;
+        }
+
+        .menu{justify-content: space-around;}
     }
