@@ -36,10 +36,10 @@
 </ul> 
 
 <ul> 
-    <li>   <a href="">Creá tu cuenta <i class="far fa-id-card"></i></a> </li>
-    <li>   <a href="">Ingresá <i class="fas fa-sign-in-alt"></i></a> </li>
-    <li>   <a href="">Mis compras <i class="fas fa-shopping-cart"></i></a> </li>
-</ul>
+    <div class="cuenta"> <li> <a href="./register">Creá tu cuenta <i class="far fa-id-card"></i></a></li>  </div>
+   <div class="login"> <li> <a href="./login">Ingresá <i class="fas fa-sign-in-alt"></i></a> </li> </div>
+    <div class="compras">  <li> <a href="">Mis compras <i class="fas fa-shopping-cart"></i></a> </li> </div>
+ </ul>
 </div>
 
 
@@ -52,41 +52,68 @@
 
 
 <main> 
+    <section>
     <form action="/" method="POST">
-        <label> Nombre y apellido:  </label>
- <input type="text" name="Nombre y Apellido">
- <label> Nombre de usuario: </label>
- <input type="text" name="Nombre de usuario">
- <label> Fecha de nacimiento: </label>
- <input type="text" name="Fecha de nacimiento">
- <label> Domicilio: </label>
- <input type="text" name="Domicilio">
-<label> Perfil del usuario: </label>
-<label> Comprar:</label>
-<input type="radio" name="Perfil del usuario" value="Comprar"> 
-<label> Vender:</label>
-<input type="radio" name="Perfil del usuario" value="Vender">  
+        <div>
+            <label> Nombre y apellido:  </label>
+            <input type="text" name="Nombre y Apellido">
+        </div>
+        <br>
+        <div>
+            <label> Nombre de usuario: </label>
+            <input type="text" name="Nombre de usuario">
+        </div>
+        <br>
+        <div>
+            <label> Fecha de nacimiento: </label>
+            <input type="text" name="Fecha de nacimiento">
+        </div>
+        <br>
+        <div>
+            <label> Domicilio: </label>
+            <input type="text" name="Domicilio">
+        </div>
+        <br>
+        <div>
+            <label> Perfil del usuario: </label>
+            <label> Comprar:</label>
+            <input type="radio" name="Perfil del usuario" value="Comprar"> 
+        </div>
+        <br>
+        <div>
+            <label> Vender:</label>
+            <input type="radio" name="Perfil del usuario" value="Vender">  
+            <br>
+            <label> Categorias:</label>
+            <label> <input type="checkbox" name="Categorias" value="Electro" > Electro </label>
+            <label> <input type="checkbox" name="Categorias" value="Moda"> Moda </label>
+            <label> <input type="checkbox" name="Categorias" value="Hogar"> Hogar </label>
+            <label> <input type="checkbox" name="Categorias" value="Jugueteria"> Jugueteria </label>
+            <label> <input type="checkbox" name="Categorias" value="Vida Sana"> Vida Sana  </label>
+        </div>
+        <br>
 
-<label> Categorias:</label>
-<label> <input type="checkbox" name="Categorias" value="Electro" > Electro </label>
-<label> <input type="checkbox" name="Categorias" value="Moda"> Moda </label>
-<label> <input type="checkbox" name="Categorias" value="Hogar"> Hogar </label>
-<label> <input type="checkbox" name="Categorias" value="Jugueteria"> Jugueteria </label>
-<label> <input type="checkbox" name="Categorias" value="Vida Sana"> Vida Sana  </label>
-
+        <div>
 <label>Seleccionar una imagen para el perfil:</label>
 <input type="file" name="avatar" accept=".jpg" multiple>
-
+</div>
+<br>
+<div></div>
 <label> Contraseña: </label>
 <input type="password" name="password"> 
+</div>
+<div></div><br>
 <label> Confirmar Contraseña:</label>
 <input type="password" name="password"> 
+</div>
+<br>
 
 <button type="submit" > Enviar </button> 
 
 <button type="reset" > Borrar </button> 
 
     </form>
+</section>
 </main>
 
 
